@@ -1,6 +1,6 @@
 ﻿namespace SOLID._01_SRP.Bad
 {
-    class Report
+    public class Report
     {
         public void Generate() {}
 
