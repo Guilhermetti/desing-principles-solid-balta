@@ -7,7 +7,7 @@
         public override void Withdraw(decimal amount)
         {
             if (Balance - amount < 0)
-                throw new InsufficientFundsException();
+                throw new NotImplementedException();
 
             Balance -= amount;
             Console.WriteLine($"Withdrew {amount:C} from savings account. Remaining balance: {Balance:C}");
