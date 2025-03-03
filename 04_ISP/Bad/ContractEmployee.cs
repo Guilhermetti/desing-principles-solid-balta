@@ -1,6 +1,6 @@
 ﻿namespace SOLID._04_ISP.Bad
 {
-    public class ContracEmployee : IEmployee
+    public class ContractEmployee : IEmployee
     {
         public string Name { get; set; }
 

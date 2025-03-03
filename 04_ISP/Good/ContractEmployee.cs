@@ -1,6 +1,6 @@
 ﻿namespace SOLID._04_ISP.Good
 {
-    public class ContracEmployee : ISalaryCalculator
+    public class ContractEmployee : ISalaryCalculator
     {
         public string Name { get; set; }
 
